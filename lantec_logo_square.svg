@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .line { stroke: #1f2937; stroke-width: 20; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .text { font-family: Arial, sans-serif; font-size: 80px; fill: #1f2937; font-weight: 700; }
+  </style>
+
+  <!-- Cloud (centered) -->
+  <path class="line" d="M180 290
+        C130 290, 130 220, 180 220
+        C195 170, 260 170, 275 220
+        C330 220, 330 290, 275 290 Z" />
+
+  <!-- Shield -->
+  <path class="line" d="M330 200 L390 230 L390 300
+        C390 350, 330 380, 330 380
+        C330 380, 270 350, 270 300 L270 230 Z" />
+
+  <!-- Keyhole -->
+  <circle cx="330" cy="270" r="28" fill="none" stroke="#1f2937" stroke-width="20"/>
+  <rect x="322" y="270" width="16" height="50" fill="#1f2937"/>
+
+  <!-- Text -->
+  <text x="140" y="450" class="text">LANTEC</text>
+</svg>
